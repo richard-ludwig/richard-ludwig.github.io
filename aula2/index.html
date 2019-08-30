@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>Formulários</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink to fit=no">
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    </head>
+    <body>
+        <h1>Formulários</h1>
+        <form>
+            <fieldset>
+                <legend><b>Preencha os campos com seus dados pessoais:</b></legend>
+                <i>
+                <label for="nome"> Nome: <input id="nome" type="text" name="nome" placeholder="Informe seu nome completo" required></label>
+                <label for="senha"> Senha: <input id="senha" type="password" name="senha" placeholder="Informe sua senha" required></label>
+                <label for="datahora"> Data e Hora: <input id="datahora" type="datetime-local" name="datahora"></label>
+                </i>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend><b>Preencha os campos com seus dados de escolaridade:</b></legend>
+                
+                <label for="curso">Curso:</label>
+                <i>
+                <select name="curso" id="curso">
+                    <option value="1">Informática</option>
+                    <option value="2">Química</option>
+                    <option value="3">Meio Ambiente</option>
+                </select>
+                </i>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Preencha os campos:</legend>
+                <label>Gosta de atividades:</label>
+                <input type="checkbox" name="opção1" value="1"> Sozimho
+                <input type="checkbox" name="opção2" value="1"> Em dupla, trios, etc. <br>
+                <label>Concorda com o contrato?</label>
+                <input type="radio" name="contrato" value="1"> Sim
+                <input type="radio" name="contrato" value="0"> Não
+            </fieldset>
+            <br>
+            <button>Enviar</button>
+        </form>
+    </body>
+</html>

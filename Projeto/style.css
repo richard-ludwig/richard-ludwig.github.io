@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+html,body,form{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+#container{
+    width: 100vw;
+    height:100vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-areas: ". formulario ."
+}
+form{
+    margin: 10px;
+    grid-area: formulario;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}

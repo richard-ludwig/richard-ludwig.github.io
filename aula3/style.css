@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+body{
+    font-family: 'PT Sans', sans-serif;
+    background-image: url(a2.jpg);
+    color: pink;
+    height: 1500px;
+}
+input[type="text"]:focus, input[type="password"]:focus, input[type="datetime-local"]:focus{
+    border-color: pink;
+}
+.margem_texto {
+    background: rgb(255,228,225);
+    color: rgb(255,20,147);
+    padding: 15px;
+    width: 800px;
+    margin-right: 70px;
+    margin-left: 70px;
+    border-radius: 20px;
+}
+.margem_titulodepagina {
+    background: rgb(255,228,225);
+    color: rgb(255,20,147);
+    padding: 15px;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+}
+.margem_titulodetexto{
+    background: rgb(255,228,225);
+    color: rgb(255,20,147);
+    padding: 15px;
+    margin-right: 1165px;
+    margin-left: 70px;
+    width: 100px;
+    border-radius: 20px;
+}
+.margem_imagem {
+    background: rgb(255,228,225);
+    color: rgb(255,20,147);
+    padding: 15px;
+    width: 300px;
+    margin-right: 70px;
+    margin-left: 950px;
+    border-radius: 20px;
+    position: absolute;
+}
